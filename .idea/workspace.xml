@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,7 +35,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/My_Repositorie/Java_Part2/PP_2_2_1",
+    "last_opened_file_path": "D:/My_Repositorie/Java_Part2/PP_2_2_1_spring_hibernate",
+    "spring.configuration.checksum": "973519049f1dda9dcc3abb7a7e786282",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674190718795</updated>
       <workItem from="1674190719963" duration="34000" />
+      <workItem from="1674289011952" duration="15000" />
     </task>
     <servers />
   </component>
