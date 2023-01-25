@@ -22,24 +22,10 @@ public class MainApp {
       userService.add(new User("User2", "Lastname2", "user2@mail.ru", car2));
 
       List<User> users = userService.listUsers();
-      for (User user : users) {
-         System.out.println("Id = " + user.getId());
-         System.out.println("First Name = " + user.getFirstName());
-         System.out.println("Last Name = " + user.getLastName());
-         System.out.println("Email = " + user.getEmail());
-         System.out.println("Car model = " + user.getCar().getModel());
-         System.out.println("Car series = " + user.getCar().getSeries());
-         System.out.println();
-      }
-      List<User> usersCar = userService.listUsersCar("BMW", 520);
-      for (User userCar : usersCar) {
-         System.out.println("Id = " + userCar.getId());
-         System.out.println("First Name = " + userCar.getFirstName());
-         System.out.println("Last Name = " + userCar.getLastName());
-         System.out.println("Email = " + userCar.getEmail());
-         System.out.println();
-      }
+      System.out.println(users);
 
+      User userCar = userService.UserCar("BMW", 520);
+      System.out.println(userCar);
 
       context.close();
    }
